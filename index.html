@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Deepak K P</title>
+  <link rel="icon" type="image/x-icon" href="https://as2.ftcdn.net/v2/jpg/06/01/21/25/1000_F_601212519_nsE5OfeOjR8cj0wESVkX2DrigmwK94tC.jpg">
+  <link rel="stylesheet" href="./index.css">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="highlight">Deepak K P</span></h1>
+      <h2><span class="typing"></span></h2>
+      <p>Welcome to my personal portfolio website.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-box">
+      <img src="Profile.jpg" alt="Profile Photo">
+      <div class="about-text">
+        <p>
+          Hi! I'm <b>Deepak K P</b>, a passionate and motivated B.E. student in Computer Science. I enjoy exploring programming, and web developing creative projects that enhance my learning.
+        </p>
+        <p>
+          Currently, I’m building a strong foundation in web development, Java, data structures, and algorithms, while also exploring modern technologies to sharpen my skills.  
+        </p>
+        <p>
+          I believe in learning by doing — working on small projects, solving coding challenges, and experimenting with new tools help me grow every day. My goal is to become a skilled software engineer who can contribute to meaningful projects and create innovative solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-html5"></i> HTML5 & CSS3</div>
+      <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-card"><i class="fab fa-java"></i> Java</div>
+      <div class="skill-card"><i class="fab fa-github"></i> Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><b>Email:</b> deepakkp@gmail.com</p>
+        <p><b>Phone:</b> +91 9800010089</p>
+        <p><b>Location:</b> Bangalore, Karnataka, India</p>
+
+        <!-- Social Media Icons -->
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/2004deepak/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Deepak1308-KP" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Deepak K P | My Portfolio </p>
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
